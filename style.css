@@ -1,0 +1,44 @@
+/* phones and tablets */
+@media (max-width: 991.98px) {
+  nav {
+    background-color: black;
+  }
+
+  #hero {
+    background: #59096d;
+    text-align: center;
+  }
+
+  #front {
+    left: 5%;
+  }
+  h4 {
+    text-align: center;
+  }
+}
+
+/* laptops and desktops*/
+@media (min-width: 992px) {
+  #hero,
+  nav {
+    background: linear-gradient(90deg, #000 55%, #59096d 45%);
+  }
+  #hero_row {
+    height: 90vh;
+  }
+
+  #front {
+    top: 20%;
+  }
+  #back {
+    top: 40%;
+  }
+  .col-lg-3 {
+    margin-top: -6%;
+  }
+}
+
+.col-lg-3 {
+  border-radius: 15px;
+  background-color: #23242a;
+}
